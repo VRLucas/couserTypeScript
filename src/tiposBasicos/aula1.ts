@@ -3,12 +3,11 @@
 // Type Annotations
 let nome: string = 'Lucas'; // Qualquer tipo de Strings: '' "" ``
 let sobrenome: string = 'Souza';
-let idade: number = 22; // Número Inteiro ou Float
+let idade = 22; // Número Inteiro ou Float
 let isAtivo: boolean = true; // Boolean, verdadeiro ou falso
 let simbolo: symbol = Symbol('qualquer-symbol'); //symbol
 // let big: bigint = 10n;  // BigInt - Numero inteiro grande
 // console.log(nome, idade, isAtivo,simbolo);
-
 // Arrays
 let arrayOfNumber:number[] = [1, 2, 3];
 let arrayOfString:  Array<string> = ['Lucas','Souza','Souza'];
@@ -23,7 +22,7 @@ export let pessoa: {
 } = {
   nome: nome,
   sobrenome: sobrenome,
-  idade: idade,
+  idade: 22,
   adulto: isAtivo,
 
 };
@@ -35,4 +34,3 @@ function soma(a: number, b: number) : number{
   return a + b;
 }
 const resultado = soma(2,3);
-
