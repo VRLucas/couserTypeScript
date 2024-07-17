@@ -9,7 +9,6 @@
 /***/ (() => {
 
 
-console.log("Salve Alunos");
 
 
 /***/ })
